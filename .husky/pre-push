@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+FORCE_COLOR=1
+
+echo precommit
+
+
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+echo $current_branch
+
+npx lint-staged --diff="$current_branch...origin/$current_branch"
