@@ -5,6 +5,7 @@
   ],
   "*.tsx": [
     "prettier --write",
-    "yarn rw lint"
+    "yarn rw lint",
+    "yarn rw test"
   ]
 }
