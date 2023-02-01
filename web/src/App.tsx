@@ -6,7 +6,7 @@ import Routes from 'src/Routes'
 
 import './index.css'
 
-const _test = 'testa'
+const _test = 'testaaa'
 
 const App = () => (
   <FatalErrorBoundary page={FatalErrorPage}>

@@ -6,6 +6,6 @@
   "*.tsx": [
     "prettier --write",
     "yarn rw lint",
-    "jest --findRelatedTests"
+    "jest --findRelatedTests --passWithNoTests"
   ]
 }
