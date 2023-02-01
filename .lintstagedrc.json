@@ -1,0 +1,10 @@
+{
+  "*.ts": [
+    "prettier --write",
+    "yarn rw lint"
+  ],
+  "*.tsx": [
+    "prettier --write",
+    "yarn rw lint"
+  ]
+}

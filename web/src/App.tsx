@@ -6,6 +6,8 @@ import Routes from 'src/Routes'
 
 import './index.css'
 
+const _test = 'test'
+
 const App = () => (
   <FatalErrorBoundary page={FatalErrorPage}>
     <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">

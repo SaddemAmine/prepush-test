@@ -7,7 +7,9 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "4.0.1"
+    "@redwoodjs/core": "4.0.1",
+    "husky": "^8.0.0",
+    "lint-staged": "9.0.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
@@ -20,5 +22,8 @@
   "prisma": {
     "seed": "yarn rw exec seed"
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "prepare": "husky install"
+  }
 }
